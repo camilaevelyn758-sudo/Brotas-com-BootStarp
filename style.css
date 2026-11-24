@@ -1,0 +1,211 @@
+body {
+    background-color: #e5e5e5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ 
+.pagina-computador {
+    width: 1200px;
+    max-width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+ 
+
+.hero-section {
+    height: 460px;
+    width: 100%;
+    overflow: hidden;
+}
+ 
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+ 
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.28);
+    z-index: 1;
+}
+ 
+.logo-gps {
+    width: 85px;
+    height: 85px;
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: #008c7a;
+    padding: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+ 
+/* Quadradinhos do Menu Superior */
+.menu-quadradinhos {
+    margin-right: 10px;
+}
+ 
+.btn-quadrado {
+    display: inline-block;
+    padding: 5px 16px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1.5px solid rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease-in-out;
+}
+ 
+.btn-quadrado.active,
+.btn-quadrado:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-color: #ffffff;
+}
+ 
+/* Conteúdo Central do Banner */
+.hero-content {
+    height: 310px;
+}
+ 
+.titulo-principal {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.75);
+}
+ 
+/* Quadradinhos "VIDEO" e "LEIA MAIS" */
+.btn-hero-quadrado {
+    display: inline-block;
+    width: 195px;
+    padding: 8px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+ 
+.btn-hero-quadrado:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+ 
+
+.secao-passeios {
+    background-color: #f4f4f4;
+    min-height: 430px;
+}
+ 
+.titulo-secao {
+    font-size: 18px;
+    font-weight: bold;
+    color: #111111;
+    margin-left: 15px;
+}
+ 
+.card-passeio {
+    width: 265px;
+    border: 2px solid #222222;
+    background-color: #d97719;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.2);
+}
+ 
+.img-passeio {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 2px solid #222222;
+}
+ 
+.legenda-passeio {
+    background-color: #e07b1a;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 6px 0;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+ 
+
+.secao-valores {
+    background-color: #f3e4d3;
+    min-height: 360px;
+}
+ 
+.tabela-valores {
+    width: 720px;
+    border-collapse: collapse;
+    background-color: #dcdcdc;
+    border: 1.5px solid #333333;
+}
+ 
+.tabela-valores th {
+    background-color: #dcdcdc;
+    color: #000000;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #666666;
+    width: 50%;
+}
+ 
+.tabela-valores td {
+    background-color: #e2e2e2;
+    color: #111111;
+    font-size: 15px;
+    padding: 9px;
+    border: 1px solid #666666;
+}
+ 
+.tabela-valores .rodape-tabela {
+    background-color: #dcdcdc;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px;
+    color: #000000;
+}
+ 
+
+.secao-rodape {
+    background-color: #82440c;
+    height: 95px;
+    width: 100%;
+}
+ 
+.icone-whatsapp {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    border-radius: 50%;
+    background-color: #25d366;
+    border: 3px solid #ffffff;
+    padding: 2px;
+}
+ 
+.texto-contato {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
